@@ -1,2 +1,3 @@
 # Agenda
-Django agenda project
+- Agenda Django Project
+- See ```commands/README.MD``` for more info
