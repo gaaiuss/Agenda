@@ -83,3 +83,9 @@ contacts = Contact.objects.all().order_by('-id')
 # Returns QuerySet[]
 contacts = Contact.objects.filter(**filters).order_by('-id')
 ```
+
+## Static Files
+
+```shell
+python manage.py collectstatic
+```
