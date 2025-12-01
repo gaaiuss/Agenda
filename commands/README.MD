@@ -52,6 +52,8 @@ python manage.py changepassword username
 
 ## Django Shell Commands
 
+- Here are some usefull CRUD django shell commands to use in the terminal
+
 ```python
 # Import module
 from contact.models import Contact
@@ -67,8 +69,8 @@ contact = Contact.objects.create(**fields)
 contact = Contact.objects.get(pk=10)
 # Edit contact
 # Returns contact
-contact.field_name1 = 'Novo valor 1'
-contact.field_name2 = 'Novo valor 2'
+contact.field_name1 = 'New value 1'
+contact.field_name2 = 'New value 2'
 contact.save()
 # Delete contact
 # Depends of the database, generally returns the number of values manipulated
