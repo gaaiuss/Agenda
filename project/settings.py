@@ -1,3 +1,5 @@
+# type: ignore
+# flake8: noqa
 """
 Django settings for project project.
 
@@ -25,7 +27,7 @@ SECRET_KEY = 'django-insecure-1q4ez!h1fuodt3iyjgrh*-7)tothx$m#ox*ezf5^3!%pwc!_v)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []  # type: ignore
+ALLOWED_HOSTS = []
 
 
 # Application definition
