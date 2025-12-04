@@ -20,6 +20,13 @@ settings.py
 ## Migrate Django database
 
 ```shell
+python manage.py makemigrations
+```
+
+- Everytime you make an alteration in your models you have to run this command
+and after, to applicate this changes, you run 'migrate' bellow
+
+```shell
 python manage.py migrate
 ```
 
@@ -28,13 +35,6 @@ default tables are not yet created (admin, auth, contenttypes, sessions)
 
 - Migrations are files that come together with your created app, each time you
 make a change in models, your are working with a database.
-
-```shell
-python manage.py makemigrations
-```
-
-- Everytime you make an alteration in your models you have to run this command
-and after, to applicate this changes, you run 'migrate' again
 
 ## Creating and modifying a Django superuser password
 
