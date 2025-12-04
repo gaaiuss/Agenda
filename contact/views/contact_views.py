@@ -33,7 +33,7 @@ def search(request):
             Q(first_name__icontains=search_value) |
             Q(last_name__icontains=search_value) |
             Q(phone__icontains=search_value) |
-            Q(email_name__icontains=search_value)
+            Q(email__icontains=search_value)
         )\
         .order_by('-id')
 
@@ -42,6 +42,7 @@ def search(request):
     context = {
         'contacts': contacts,
         'site_title': 'Search - ',
+        'search_value': search_value,
     }
 
     return render(
