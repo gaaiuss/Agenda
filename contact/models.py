@@ -5,10 +5,7 @@ from django.utils import timezone
 # id (primary key - Django creates automatically)
 # first_name (string), last_name (string), phone (string), email (email),
 # created_date (date), description (text), category (foreign key),
-# show (boolean), picture (image)
-
-# Depois
-# owner (foreign key)
+# show (boolean), picture (image) owner (foreign key)
 
 
 class Category(models.Model):
